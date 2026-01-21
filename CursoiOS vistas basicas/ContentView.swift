@@ -27,6 +27,15 @@ struct ContentView: View {
                     NavigationLink(destination: VistaBotones()) {
                         Text("Ir a vista de botones")
                     }
+                    NavigationLink(destination: VistaTextInputs()) {
+                        Text("Ir a vista de inserción de texto")
+                    }
+                    NavigationLink(destination: VistaTogglesSliders()) {
+                        Text("Ir a vista de Toggles, Steppers, Sliders")
+                    }
+                    NavigationLink(destination: VistaForms()) {
+                        Text("Ir a vista de formularios")
+                    }
                 }
             }
         }
