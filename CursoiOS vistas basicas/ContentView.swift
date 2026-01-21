@@ -24,8 +24,8 @@ struct ContentView: View {
                     NavigationLink(destination: VistaImagenes()) {
                         Text("Ir a vista de Imágenes")
                     }
-                    NavigationLink(destination: VistaPruebas()) {
-                        Text("Ir a vista de pruebas")
+                    NavigationLink(destination: VistaBotones()) {
+                        Text("Ir a vista de botones")
                     }
                 }
             }
