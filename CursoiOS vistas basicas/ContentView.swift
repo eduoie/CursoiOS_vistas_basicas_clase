@@ -57,6 +57,10 @@ struct ContentView: View {
                     NavigationLink(destination: VistaListas2()) {
                         Text("Ir a vista de listas 2")
                     }
+                    NavigationLink(destination: VistaExtensionesVistas()) {
+                        Text("Ir a vista de extensiones de vistas")
+                    }
+                    
                 }
             }
         }
