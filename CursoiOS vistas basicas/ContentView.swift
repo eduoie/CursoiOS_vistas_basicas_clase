@@ -60,7 +60,15 @@ struct ContentView: View {
                     NavigationLink(destination: VistaExtensionesVistas()) {
                         Text("Ir a vista de extensiones de vistas")
                     }
-                    
+                    NavigationLink(destination: VistaAnimaciones()) {
+                        Text("Ir a vista de animaciones")
+                    }
+                    NavigationLink(destination: VistaGeometryReader()) {
+                        Text("Ir a geometry reader")
+                    }
+                    NavigationLink(destination: VistaDebugging()) {
+                        Text("Ir a vista debugging")
+                    }
                 }
             }
         }
