@@ -15,6 +15,9 @@ struct VistaDebugging: View {
     @State private var temperaturaFahrenheit = "--"
 
     var body: some View {
+        // Para mostrar los cambios en las variables de estado.
+        let _ = Self._printChanges()
+        
         VStack(alignment: .leading, spacing: 1) {
             Text("Grados Celsius (ºC)")
                 .font(.title3)
